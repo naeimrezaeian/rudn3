@@ -33,7 +33,7 @@ GIT_REPO_URL="https://github.com/naeimrezaeian/rudn3.git"
 TARGET_DIR="/var/www/assistant"
 TEMP_DIR="/tmp/rudn3_clone"
 
-sudo git clone $GIT_REPO_URL $TARGET_DIR
+sudo git clone $GIT_REPO_URL $TEMP_DIR
 
 
 echo "Copying files from website folder to $TARGET_DIR"
