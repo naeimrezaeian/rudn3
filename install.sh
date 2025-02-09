@@ -71,7 +71,7 @@ echo "Restarting NGINX..."
 sudo systemctl restart nginx
 
 echo "Cleaning up temporary directory..."
-rm -rf "$TEMP_DIR"
+sudo rm -rf "$TEMP_DIR"
 
 echo "Installation and setup complete!"
 echo "Don't forget to update your /etc/hosts file with:"
